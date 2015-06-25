@@ -102,7 +102,6 @@
 	/*
 	///////////ALMACENAR RESULTADOS////////////////////////
 	*/
-	condb->conectarDB();
 		}
 	envio($wa,$nombre.' '.$s_msg_bye.$s_saludo->get_stiempo(1),$s_num);
 	exit(0);	
