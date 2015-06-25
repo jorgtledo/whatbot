@@ -1,0 +1,52 @@
+{
+  
+"Preguntas": [
+    
+{
+      
+"respuestas": [
+        
+"mal",
+        
+"excelente",
+        
+"bien"
+      ],
+      
+"Pregunta": "Como estas?"
+    
+},
+    
+{
+      
+"respuestas": [
+
+"10",
+        
+"20",
+        
+"30"
+      ],
+      
+"Pregunta": "Cuanto sale?"
+    
+},
+    
+{
+      
+"respuestas": [
+        
+"Si",
+        
+"No",
+        
+"No se"
+      ],
+      
+"Pregunta": "Le interesa boca?"
+    
+		}
+  
+	]
+
+}
