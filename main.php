@@ -64,7 +64,6 @@
 	function encuesta_start($wa,$s_num,$encuesta,$nombre)
 	{
 	require 'strings.php';
-	require 'DBController.php';
 	$s_saludo= new Frase();
 	$tam_e=$encuesta->tam();
 	if ($tam_e==1)
@@ -75,7 +74,6 @@
 	{
 	envio($wa,$nombre." responde las siguientes ".$tam_e." preguntas",$s_num);	
 	}
-	$condb = new DBController();
 	for ($i=1;$i<=$tam_e;$i++)
 	{
 	echo "Enviando pregunta $i de ".$tam_e."\n";
